@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48419702-423c-4ef3-af54-c5617c054292" name="Default Changelist" comment="" />
+    <list default="true" id="48419702-423c-4ef3-af54-c5617c054292" name="Default Changelist" comment="Fixed README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,6 +132,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/views" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -163,12 +171,24 @@
       <workItem from="1591292074715" duration="12000" />
       <workItem from="1591292099768" duration="8206000" />
       <workItem from="1591322679263" duration="6880000" />
-      <workItem from="1591351651689" duration="3624000" />
+      <workItem from="1591351651689" duration="4283000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed README.md">
+      <created>1591366907592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591366907592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="846" y="427" width="542" height="574" key="#Notifications" timestamp="1590935725484">
@@ -196,6 +216,14 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="696" y="292" width="524" height="495" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591292768535" />
+    <state x="837" y="434" width="246" height="211" key="Github.ShareDialog" timestamp="1591366291619">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="837" y="434" width="246" height="211" key="Github.ShareDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591366291619" />
+    <state x="665" y="232" width="586" height="615" key="Github.UntrackedFilesDialog" timestamp="1591366308822">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="665" y="232" width="586" height="615" key="Github.UntrackedFilesDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591366308822" />
     <state width="939" height="277" key="GridCell.Tab.0.bottom" timestamp="1590947727637">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
