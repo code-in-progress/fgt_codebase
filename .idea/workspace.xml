@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48419702-423c-4ef3-af54-c5617c054292" name="Default Changelist" comment="Fixed README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="48419702-423c-4ef3-af54-c5617c054292" name="Default Changelist" comment="Fixed .gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +169,7 @@
       <workItem from="1591292074715" duration="12000" />
       <workItem from="1591292099768" duration="8206000" />
       <workItem from="1591322679263" duration="6880000" />
-      <workItem from="1591351651689" duration="4283000" />
+      <workItem from="1591351651689" duration="4549000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed README.md">
       <created>1591366907592</created>
@@ -180,7 +178,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591366907592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removed .idea">
+      <created>1591366985603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591366985603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed .gitignore">
+      <created>1591367078114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591367078114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +200,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed README.md" />
+    <MESSAGE value="Removed .idea" />
+    <MESSAGE value="Fixed .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="846" y="427" width="542" height="574" key="#Notifications" timestamp="1590935725484">
@@ -248,6 +262,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="467" y="186" width="1374" height="839" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590937324068" />
+    <state x="558" y="266" width="800" height="539" key="Vcs.Push.Dialog.v2" timestamp="1591367081663">
+      <screen x="0" y="27" width="1920" height="1010" />
+    </state>
+    <state x="558" y="266" width="800" height="539" key="Vcs.Push.Dialog.v2/0.27.1920.1010@0.27.1920.1010" timestamp="1591367081663" />
     <state x="696" y="363" width="524" height="395" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1590940035112">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
