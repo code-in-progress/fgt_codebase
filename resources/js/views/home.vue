@@ -1,5 +1,11 @@
 <template>
-    <h1>Welcome user (or non-user)!!!</h1>
+    <div class="message" v-for="p in posts">
+        <div class="message-header">
+            <p>
+                {{ p.title }}
+            </p>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -13,8 +19,11 @@
         },
 
         created() {
-            axios.get('/categories')
-                .then(({data}) => this.categories = response.data);
+            axios.get('/api/categories')
+                .then(({data}) => this.categories = data);
+
+            axios.get('/api/posts')
+                .then(({data}) => this.posts = data);
         }
     }
 </script>

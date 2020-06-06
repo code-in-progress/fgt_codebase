@@ -4,7 +4,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(App\PostToCategory::class, function (Faker $faker) {
+$factory->define(App\PostCategory::class, function (Faker $faker) {
     return [
         'post_id' => App\Post::inRandomOrder()->first()->id,
         'category_id' => App\Category::inRandomOrder()->first()->id

@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48419702-423c-4ef3-af54-c5617c054292" name="Default Changelist" comment="Fixed .gitignore">
+    <list default="true" id="48419702-423c-4ef3-af54-c5617c054292" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/app/PostCategory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostToCategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/PostToCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/PostToCategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PostCategoryFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_31_143819_create_table_post_to_categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_31_143819_create_table_post_category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/PostToCategorySeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/PostCategorySeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/categories/create.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/categories/create.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/categories/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/categories/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/views/posts/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/views/posts/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +187,8 @@
       <workItem from="1591292074715" duration="12000" />
       <workItem from="1591292099768" duration="8206000" />
       <workItem from="1591322679263" duration="6880000" />
-      <workItem from="1591351651689" duration="5570000" />
+      <workItem from="1591351651689" duration="10901000" />
+      <workItem from="1591484534777" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed README.md">
       <created>1591366907592</created>
@@ -207,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591367295766</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update">
+      <created>1591368770931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591368770931</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +242,8 @@
     <MESSAGE value="Fixed README.md" />
     <MESSAGE value="Removed .idea" />
     <MESSAGE value="Fixed .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed .gitignore" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="846" y="427" width="542" height="574" key="#Notifications" timestamp="1590935725484">
@@ -232,19 +258,19 @@
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
     <state x="646" y="272" width="624" height="535" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591292084933" />
-    <state x="701" y="251" width="510" height="603" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591292805814">
+    <state x="701" y="247" width="518" height="624" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591484403305">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="701" y="251" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591292805814" />
+    <state x="701" y="247" width="518" height="624" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591484403305" />
     <state x="701" y="265" width="510" height="603" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1590938687759" />
-    <state x="696" y="283" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591316243385">
+    <state x="696" y="275" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591484284016">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="696" y="283" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591316243385" />
-    <state x="696" y="292" width="524" height="495" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591292768535">
+    <state x="696" y="275" width="524" height="512" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591484284016" />
+    <state x="696" y="288" width="524" height="495" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591483294070">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="696" y="292" width="524" height="495" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591292768535" />
+    <state x="696" y="288" width="524" height="495" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1920.1010@0.27.1920.1010" timestamp="1591483294070" />
     <state x="837" y="434" width="246" height="211" key="Github.ShareDialog" timestamp="1591366291619">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
@@ -277,10 +303,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="467" y="186" width="1374" height="839" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1590937324068" />
-    <state x="558" y="258" width="800" height="539" key="Vcs.Push.Dialog.v2" timestamp="1591367299829">
+    <state x="558" y="254" width="800" height="539" key="Vcs.Push.Dialog.v2" timestamp="1591368772607">
       <screen x="0" y="27" width="1920" height="1010" />
     </state>
-    <state x="558" y="258" width="800" height="539" key="Vcs.Push.Dialog.v2/0.27.1920.1010@0.27.1920.1010" timestamp="1591367299829" />
+    <state x="558" y="254" width="800" height="539" key="Vcs.Push.Dialog.v2/0.27.1920.1010@0.27.1920.1010" timestamp="1591368772607" />
     <state x="696" y="363" width="524" height="395" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1590940035112">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

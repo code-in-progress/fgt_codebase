@@ -11,9 +11,12 @@ class Category extends Model
 
     protected $fillable = ['category_name', '_lft', '_rgt', 'parent_id'];
 
-    public function post()
-    {
-        return $this->belongsTo('App\Posts', 'on_post');
+    public function posts() {
+        return $this->hasManyThrough('App\Post', 'App\Category');
+    }
+
+    public function user() {
+        return $this->belongsTo('App\User', 'created_by');
     }
 
     public function getRouteKeyName() {

@@ -2,9 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::get('/api/categories', 'CategoriesController@index');
 Route::get('/api/categories/create', 'CategoriesController@create');
@@ -24,5 +22,9 @@ Route::post('/api/posts', 'PostsController@store');
 Route::delete('/api/posts/{post}', 'PostsController@delete');
 
 Auth::routes();
+
+Route::get('/{any?}', function () {
+    return view('welcome');
+});
 
 /*Route::get('/home', 'HomeController@index')->name('home');*/

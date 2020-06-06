@@ -4,13 +4,11 @@
             <div class="column">
                 <div class="flex-center position-ref full-height">
                     <ul>
-                        @foreach($categories as $c)
                         <li>
-                            <div>Name: {{ $c->category_name }}</div>
-                            <div>ID: {{ $c->id }}</div>
+                            <div>Name: </div>
+                            <div>ID:</div>
                             <hr />
                         </li>
-                        @endforeach
                     </ul>
                 </div>
             </div>
@@ -21,7 +19,7 @@
 <script>
     export default {
         mounted() {
-            console.log("Categories component loaded");
+            console.log("Posts component loaded");
         }
     }
 </script>

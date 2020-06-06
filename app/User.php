@@ -43,4 +43,10 @@ class User extends Authenticatable
         return $this->hasMany('App\Posts', 'author_id');
     }
 
+    //Gets all categories created by this user
+    public function categories()
+    {
+        return $this->hasMany('App\Category', 'created_by');
+    }
+
 }

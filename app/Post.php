@@ -12,14 +12,11 @@ class Post extends Model
 
     // posts can have one or many categories
     // returns all categories associated to the post
-    public function categories()
-    {
-        return $this->hasMany('App\Category', 'on_post');
+    public function categories() {
+        return $this->hasManyThrough('App\Category', 'App\Post');
     }
 
-    // returns the instance of the user who is author of that post
-    public function author()
-    {
+    public function user() {
         return $this->belongsTo('App\User', 'author_id');
     }
 }

@@ -15,7 +15,7 @@ class CategoriesController extends Controller
      */
     public function index()
     {
-        return Category::all();
+        return Category::with('user')->with('posts')->get();
         /*return view('categories.index', [
             'categories' => Category::all()
         ]);*/
