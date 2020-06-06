@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class PostCategory extends Model
+class CategoriesPosts extends Model
 {
     public function post() {
         return $this->belongsTo('App\Post', 'id');

@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class PostCategorySeeder extends Seeder
+class CategoriesPostsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class PostCategorySeeder extends Seeder
      */
     public function run()
     {
-        factory(App\PostCategory::class, 10)->create();
+        factory(App\CategoriesPosts::class, 10)->create();
     }
 }

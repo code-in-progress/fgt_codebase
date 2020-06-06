@@ -13,7 +13,7 @@ class Post extends Model
     // posts can have one or many categories
     // returns all categories associated to the post
     public function categories() {
-        return $this->hasManyThrough('App\Category', 'App\Post');
+        return $this->hasManyThrough('App\Category', 'App\Post', 'id', 'id');
     }
 
     public function user() {
