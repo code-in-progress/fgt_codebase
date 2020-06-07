@@ -12,7 +12,8 @@ class Category extends Model
     protected $fillable = ['category_name', '_lft', '_rgt', 'parent_id'];
 
     public function posts() {
-        return $this->hasManyThrough('App\Post', 'App\Category');
+        return $this->belongsToMany('App\Post');
+        // return $this->hasManyThrough('App\Post', 'App\Category');
     }
 
     public function user() {

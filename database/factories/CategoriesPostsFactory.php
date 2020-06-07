@@ -3,10 +3,13 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use Faker\Generator as Faker;
+use App\CategoriesPosts;
+use App\Category;
+use App\Post;
 
-$factory->define(App\CategoriesPosts::class, function (Faker $faker) {
+$factory->define(CategoriesPosts::class, function (Faker $faker) {
     return [
-        'post_id' => App\Post::inRandomOrder()->first()->id,
-        'category_id' => App\Category::inRandomOrder()->first()->id
+        'categories_id' => Category::inRandomOrder()->first()->id,
+        'posts_id' => Post::inRandomOrder()->first()->id,
     ];
 });

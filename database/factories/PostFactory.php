@@ -10,7 +10,7 @@ $factory->define(App\Post::class, function (Faker $faker) {
     $user = App\User::inRandomOrder()->first()->id;
 
     return [
-        'author_id' => $user,
+        'user_id' => $user,
         'title' => $faker->sentence,
         'body' => $faker->paragraph,
         'slug' => Str::slug($faker->unique()->sentence),

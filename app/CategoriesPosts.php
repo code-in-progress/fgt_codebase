@@ -6,11 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class CategoriesPosts extends Model
 {
-    public function post() {
-        return $this->belongsTo('App\Post', 'id');
-    }
-
-    public function category() {
-        return $this->belongsTo('App\Category', 'id');
-    }
+    public $timestamps = false;
 }
