@@ -65,15 +65,29 @@
                         </ul>
                     </div>
 
+                    @if (Route::has('login'))
                     <div>
                         <h5 class="uppercase font-bold mb-5 text-base">Account</h5>
 
                         <ul class="list-reset">
-                            <li class="text-sm leading-loose"><router-link class="text-black" to="/mascot">Login</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" to="/illustrations">Register</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" to="/loaders-and-animations">Logout</router-link></li>
+                            @auth
+                                <li class="text-sm leading-loose"><div class="text-black">Logged in: {{ Auth::user()->name }}</div></li>
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+                                    @method('POST')
+                                    <li class="text-sm leading-loose"><button type="submit" class="text-black">Logout</button></li>
+                                </form>
+
+                            @else
+                                <li class="text-sm leading-loose"><a href="{{ route('login') }}" class="text-black">Login</a></li>
+
+                                @if (Route::has('register'))
+                                    <li class="text-sm leading-loose"><a href="{{ route('register') }}" class="text-black">Register</a></li>
+                                @endif
+                            @endauth
                         </ul>
                     </div>
+                    @endif
                 </aside>
 
                 <div class="primary flex-1">

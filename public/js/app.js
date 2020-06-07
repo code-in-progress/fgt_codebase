@@ -1953,6 +1953,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Home component loaded");
@@ -2584,8 +2585,14 @@ render._withStripped = true
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function () {}
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_vm._v("Home")])
+}
 var staticRenderFns = []
+render._withStripped = true
 
 
 
@@ -17844,16 +17851,19 @@ __webpack_require__.r(__webpack_exports__);
   }, {
     path: '/categories',
     component: _views_categories_index__WEBPACK_IMPORTED_MODULE_0__["default"]
-  }, {
-    path: '/categories/create',
-    component: _views_categories_create__WEBPACK_IMPORTED_MODULE_2__["default"]
-  }, {
-    path: '/categories/{category}',
-    component: _views_categories_show__WEBPACK_IMPORTED_MODULE_1__["default"]
-  }, {
-    path: '/categories/{category}/edit',
-    component: _views_categories_edit__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }, {
+  }, // {
+  //     path: '/categories/create',
+  //     component: cCreate
+  // },
+  // {
+  //     path: '/categories/{category}',
+  //     component: cShow
+  // },
+  // {
+  //     path: '/categories/{category}/edit',
+  //     component: cEdit
+  // },
+  {
     path: '/posts',
     component: _views_posts_index__WEBPACK_IMPORTED_MODULE_4__["default"]
   }, {

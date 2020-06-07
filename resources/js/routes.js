@@ -21,18 +21,18 @@ export default {
             path: '/categories',
             component: cIndex
         },
-        {
-            path: '/categories/create',
-            component: cCreate
-        },
-        {
-            path: '/categories/{category}',
-            component: cShow
-        },
-        {
-            path: '/categories/{category}/edit',
-            component: cEdit
-        },
+        // {
+        //     path: '/categories/create',
+        //     component: cCreate
+        // },
+        // {
+        //     path: '/categories/{category}',
+        //     component: cShow
+        // },
+        // {
+        //     path: '/categories/{category}/edit',
+        //     component: cEdit
+        // },
         {
             path: '/posts',
             component: pIndex

@@ -1,11 +1,12 @@
 <template>
-    <div class="message" v-for="p in posts">
+    <div>Home</div>
+    <!-- <div class="message" v-for="p in posts">
         <div class="message-header">
             <p>
                 {{ p.title }}
             </p>
         </div>
-    </div>
+    </div>-->
 </template>
 
 <script>
